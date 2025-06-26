@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS Bags</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- header start -->
+    <header class="header">
+        <div class="announcement-bar">
+            <p>3 days free trial then enjoy 3 months of Shopify for $1/month</p>
+        </div>
+        <div class="header-con">
+            <div class="container">
+                <div class="row v-center">
+                    <div class="header-item item-left">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="images/logo.png" alt="RS Bags" title="RS Bags">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- menu start here -->
+                    <div class="header-item item-center">
+                        <div class="menu-overlay"></div>
+                        <nav class="menu">
+                            <div class="mobile-menu-head">
+                                <div class="go-back"><i class="fa fa-angle-left"></i></div>
+                                <div class="current-menu-title"></div>
+                                <div class="mobile-menu-close">&times;</div>
+                            </div>
+                            <ul class="menu-main">
+                                <li>
+                                    <a href="index.html" class="active">Home</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="collection.html">Collection
+                                    </a>
+
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="product.html">Product </a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="about.html">About us</a>
+                                </li>
+
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- menu end here -->
+                    <div class="header-item item-right">
+                        <a href="#"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M17.7491 16.2754C19.0327 14.6708 19.8002 12.6355 19.8002 10.4209C19.8002 5.24091 15.6009 1.04167 10.4209 1.04167C5.24087 1.04167 1.04163 5.24091 1.04163 10.4209C1.04163 15.6009 5.24087 19.8002 10.4209 19.8002C12.6355 19.8002 14.6708 19.0327 16.2754 17.7492L22.1792 23.6531C22.5862 24.0601 23.2461 24.0601 23.6531 23.6531C24.0601 23.2461 24.0601 22.5863 23.6531 22.1793L17.7491 16.2754ZM10.4209 17.7264C6.38621 17.7264 3.11545 14.4556 3.11545 10.4209C3.11545 6.38625 6.38621 3.11549 10.4209 3.11549C14.4556 3.11549 17.7263 6.38625 17.7263 10.4209C17.7263 14.4556 14.4556 17.7264 10.4209 17.7264Z"
+                                    fill="#000" />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M5.20837 21.875C5.20837 17.8479 8.47297 14.5833 12.5 14.5833C16.5271 14.5833 19.7917 17.8479 19.7917 21.875M16.6667 7.29167C16.6667 9.59285 14.8012 11.4583 12.5 11.4583C10.1989 11.4583 8.33337 9.59285 8.33337 7.29167C8.33337 4.99048 10.1989 3.125 12.5 3.125C14.8012 3.125 16.6667 4.99048 16.6667 7.29167Z"
+                                    stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12.5 6.2502C10.6256 4.0658 7.49351 3.39073 5.14503 5.39098C2.79654 7.39123 2.46591 10.7355 4.31019 13.1013C5.84358 15.0681 10.4842 19.2166 12.0051 20.5593C12.1752 20.7095 12.2603 20.7846 12.3596 20.8141C12.4461 20.8398 12.5409 20.8398 12.6276 20.8141C12.7269 20.7846 12.8119 20.7095 12.9821 20.5593C14.503 19.2166 19.1435 15.0681 20.677 13.1013C22.5212 10.7355 22.2309 7.37019 19.8421 5.39098C17.4532 3.41177 14.3744 4.0658 12.5 6.2502Z"
+                                    stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a href="#">
+                          <div class="box">
+                            <div class="cart-count" id="cartCount">0</div>
+                            <ion-icon name="cart"  id="cart-icon" >
+                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_83_18)">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M18.75 21.0938C17.8875 21.0938 17.1875 21.7938 17.1875 22.6562C17.1875 23.5187 17.8875 24.2188 18.75 24.2188C19.6125 24.2188 20.3125 23.5187 20.3125 22.6562C20.3125 21.7938 19.6125 21.0938 18.75 21.0938ZM10.9375 21.0938C10.075 21.0938 9.375 21.7938 9.375 22.6562C9.375 23.5187 10.075 24.2188 10.9375 24.2188C11.8 24.2188 12.5 23.5187 12.5 22.6562C12.5 21.7938 11.8 21.0938 10.9375 21.0938ZM21.0938 16.4062C21.0938 17.2687 20.3937 17.9688 19.5312 17.9688H10.9375C10.075 17.9688 9.375 17.2687 9.375 16.4062L8.07266 8.59375H23.0469L21.0938 16.4062ZM7.78906 7.03125L5.83985 0.78125H0.78125C0.349219 0.78125 0 1.13125 0 1.5625C0 1.99453 0.349219 2.34375 0.78125 2.34375H4.6875L6.25858 7.03125H6.25L7.8125 16.4062C7.8125 18.132 9.21172 19.5312 10.9375 19.5312H19.5312C21.257 19.5312 22.6562 18.132 22.6562 16.4062L25 7.03125H7.78906Z"
+                                                            fill="#000" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_83_18">
+                                                            <rect width="25" height="25" fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                            </ion-icon>
+                          </div>
+                        </a>
+                        <!-- mobile menu trigger -->
+                        <div class="mobile-menu-trigger">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- start banner -->
+    <section>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/banner1.jpg" alt="Banner" title="Banner">
+                    <div class="container">
+                        <div class="banner-content">
+                            <span>Women Collection Bag</span>
+                            <h1>Hot summer singlet</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore</p>
+                            <div class="mt-30">
+                                <a href="#" class="primary-btn">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/banner2.jpg" alt="Banner" title="Banner">
+                    <div class="container">
+                        <div class="banner-content">
+                            <span>Women Collection Hand Bag</span>
+                            <h1>Hot summer singlet</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore</p>
+                            <div class="mt-30">
+                                <a href="#" class="primary-btn">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/banner3.jpg" alt="Banner" title="Banner">
+                    <div class="container">
+                        <div class="banner-content">
+                            <span>Women New Collection</span>
+                            <h1>Bag Fashion Brands</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore</p>
+                            <div class="mt-30">
+                                <a href="#" class="primary-btn">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- end banner -->
+
+    <!-- banner bottom -->
+    <section>
+        <div class="banner-bottom-con">
+            <div class="banner-bottom-left">
+                <img src="images/bag-accessories.jpg" alt="RS Bag" title="RS bag">
+                <div class="banner-bottom-content">
+                    <span>Everything for you toys</span>
+                    <h3>Bag Accessories</h3>
+                    <div class="save">Save 30%</div>
+                </div>
+            </div>
+            <div class="banner-bottom-right">
+                <img src="images/hand-bag.jpg" alt="RS Bag" title="RS bag">
+                <div class="banner-bottom-content">
+                    <span>Gift for bag</span>
+                    <h3>Hand Bags</h3>
+                    <div class="save">Save 30%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end banner bottom -->
+
+    <!-- feature product slider -->
+    <section class="pad-top pad-bottom">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Recommended products</h2>
+                <span>Add our products to weekly lineup</span>
+            </div>
+            <div class="swiper feature-slider">
+                <div class="swiper-wrapper" id="productList">
+
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+    <!-- end feature product slider -->
+
+    <!-- men and women wallet -->
+    <section class="pad-bottom">
+        <div class="container">
+            <div class="men-women-con">
+                <div class="men-con">
+                    <div class="men-women-content">
+                        <div class="inner-content">
+                            <span>Men Hand Bag</span>
+                            <h3>Men Wallet</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="mt-30">
+                                <a href="#" class="primary-btn">Shop Now</a>
+                            </div>
+                        </div>
+                        <div class="wallet-img">
+                            <img src="images/men-wallet.png" alt="Men Wallet">
+                        </div>
+                    </div>
+                </div>
+                <div class="women-con">
+                    <div class="men-women-content">
+                        <div class="inner-content">
+                            <span>WoMen Hand Bag</span>
+                            <h3>Women Wallet</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="mt-30">
+                                <a href="#" class="primary-btn">Shop Now</a>
+                            </div>
+                        </div>
+                        <div class="wallet-img">
+                            <img src="images/women-wallet.png" alt="Women Wallet">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end men and women wallet -->
+
+    <!-- footer top icon -->
+    <section class="gray-bg">
+        <div class="container">
+            <ul class="icon-text">
+                <li>
+                    <div class="icon-con">
+                        <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M18.6545 27.7363H4.90909C3.76364 27.7363 2.86364 26.7544 2.86364 25.609V11.4544H38.2909V17.6726C38.2909 18.409 38.9454 19.0635 39.6818 19.0635C40.5 19.0635 41.1545 18.4908 41.1545 17.6726V7.85443C41.1545 5.15443 38.9454 2.86353 36.2455 2.86353H4.90909C2.20909 2.86353 0 5.15443 0 7.85443V25.609C0 28.309 2.20909 30.5999 4.90909 30.5999H18.7364C19.5545 30.5999 20.1273 29.9453 20.1273 29.1272C20.1273 28.309 19.4727 27.7363 18.6545 27.7363ZM4.90909 5.72716H36.2455C37.3909 5.72716 38.2909 6.70898 38.2909 7.85443V8.5908H2.86364V7.85443C2.86364 6.70898 3.76364 5.72716 4.90909 5.72716ZM5.4 18.8181C5.4 17.9999 6.05454 17.3453 6.87273 17.3453H10.7182C11.5364 17.3453 12.1909 17.9181 12.1909 18.7363C12.1909 19.5544 11.6182 20.209 10.8 20.209H6.87273C6.05454 20.2908 5.4 19.6363 5.4 18.8181ZM5.4 23.6453C5.4 22.8272 6.05454 22.1726 6.87273 22.1726H14.5636C15.3818 22.1726 15.9545 22.8272 15.9545 23.6453C15.9545 24.3817 15.3 25.0363 14.5636 25.0363H6.87273C6.05454 25.0363 5.4 24.3817 5.4 23.6453ZM33.9545 20.1272C27.9 20.1272 22.9091 25.0362 22.9091 31.1726C22.9091 37.2272 27.8182 42.2181 33.9545 42.2181C40.0909 42.1362 45 37.2272 45 31.0908C45 25.0363 40.0909 20.1272 33.9545 20.1272ZM33.9545 39.7635C29.2091 39.7635 25.3636 35.8363 25.3636 31.0908C25.3636 26.3453 29.2091 22.4999 33.9545 22.4999C38.7 22.4999 42.6273 26.3453 42.6273 31.0908C42.6273 35.8363 38.7 39.7635 33.9545 39.7635ZM38.2091 28.309C38.7 28.7999 38.7 29.5363 38.2091 30.0272L33.7091 34.5272C33.4636 34.7726 33.1364 34.8544 32.8909 34.8544C32.5636 34.8544 32.2364 34.7726 32.0727 34.5272L29.7818 32.2363C29.2909 31.7453 29.2909 31.009 29.7818 30.5181C30.2727 30.0272 31.0091 30.0272 31.5 30.5181L32.9727 31.9908L36.5727 28.3908C36.9818 27.8181 37.7182 27.8181 38.2091 28.309Z"
+                                fill="#222222" />
+                        </svg>
+
+                    </div>
+                    <h5>Secure Payment</h5>
+                    <p>100% secure payment</p>
+                </li>
+                <li>
+                    <div class="icon-con">
+                        <svg width="45" height="46" viewBox="0 0 45 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M44.8363 20.0453C44.7545 19.309 44.1 18.8181 43.3636 18.8999C42.6273 18.9817 42.1363 19.6362 42.2182 20.3726C43.4454 31.2544 35.5091 41.0726 24.6273 42.2999C23.8909 42.3817 23.1545 42.3817 22.4182 42.3817C16.2818 42.3817 10.4727 39.5999 6.62725 34.7726H9.24544C9.89998 34.6908 10.3909 34.1181 10.3909 33.3817C10.3909 32.7271 9.89998 32.1544 9.24544 32.0726H3.6818C3.35453 32.0726 2.94544 32.1544 2.69998 32.3999C2.45453 32.7271 2.29089 33.0544 2.29089 33.4635V39.4362C2.29089 39.4362 2.29089 40.4181 3.59998 40.4181C4.17271 40.5817 4.74544 40.0908 4.90907 39.5181V36.7362C10.8818 44.0181 20.7 46.7999 29.7 43.8544C39.6818 40.4999 45.9818 30.5999 44.8363 20.0453ZM0.163618 24.9544C0.245436 25.6908 0.899981 26.1817 1.63634 26.0999C2.37271 26.0181 2.86362 25.3635 2.7818 24.6272C1.55453 13.7453 9.40907 3.92716 20.2909 2.7817C21.0273 2.69988 21.7636 2.69988 22.5 2.69988C28.6363 2.69988 34.4454 5.4817 38.2909 10.309H35.6727C35.0182 10.3908 34.5273 10.9635 34.5273 11.6999C34.5273 12.3544 35.0182 12.9272 35.6727 13.009H41.3182C41.6454 13.009 42.0545 12.9272 42.3 12.6817C42.5454 12.3544 42.7091 12.0272 42.7091 11.6181V5.4817C42.7091 5.4817 42.7091 4.49988 41.4 4.49988C40.8273 4.41806 40.2545 4.90897 40.0909 5.4817V8.26352C34.1182 1.06352 24.3 -1.80012 15.3818 1.14534C5.31816 4.49988 -0.981837 14.3999 0.163618 24.9544ZM20.7 22.4999L23.8091 24.7908C23.9727 24.9544 24.0545 25.1999 23.8909 25.4453C23.8091 25.5272 23.6454 25.609 23.5636 25.609H22.5818C22.3363 25.609 22.0909 25.4453 22.0909 25.1181C22.0909 24.3817 21.5182 23.809 20.7818 23.809C20.0454 23.809 19.4727 24.3817 19.4727 25.1181C19.4727 26.509 20.3727 27.7362 21.7636 28.0635V28.1453C21.7636 28.8817 22.3363 29.4544 23.0727 29.4544C23.8091 29.4544 24.3818 28.8817 24.3818 28.1453V28.0635C25.6909 27.6544 26.6727 26.4272 26.6727 25.0362C26.6727 24.0544 26.1818 23.1544 25.4454 22.5817L22.3363 20.2908C22.1727 20.1272 22.0909 19.8817 22.2545 19.6362C22.3363 19.5544 22.5 19.4726 22.5818 19.4726H23.5636C23.8091 19.4726 24.0545 19.6362 24.0545 19.9635C24.0545 20.6999 24.6273 21.2726 25.3636 21.2726C26.1 21.2726 26.6727 20.6999 26.6727 19.9635C26.6727 18.5726 25.7727 17.3453 24.3818 17.0181V16.9362C24.3818 16.1999 23.8091 15.6272 23.0727 15.6272C22.3363 15.6272 21.7636 16.1999 21.7636 16.9362V17.0181C20.1273 17.509 19.1454 19.1453 19.6363 20.7817C19.8 21.5181 20.1273 22.0908 20.7 22.4999ZM23.0727 33.7908C29.2091 33.7908 34.2 28.7999 34.2 22.6635C34.2 16.5272 29.2091 11.5362 23.0727 11.5362C16.9363 11.5362 11.9454 16.5272 11.9454 22.6635C11.9454 28.7999 16.9363 33.709 23.0727 33.7908ZM23.0727 14.1544C27.7363 14.1544 31.5818 17.9999 31.5818 22.6635C31.5818 27.3272 27.7363 31.0908 23.0727 31.0908C18.4091 31.0908 14.5636 27.2453 14.5636 22.5817C14.5636 17.9181 18.3273 14.1544 23.0727 14.1544Z"
+                                fill="#222222" />
+                        </svg>
+
+
+                    </div>
+                    <h5>30 Days Return</h5>
+                    <p>If goods have problems</p>
+                </li>
+                <li>
+                    <div class="icon-con">
+                        <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_7_139)">
+                                <path
+                                    d="M22.5 0C11.6182 0 2.70001 8.83636 2.70001 19.8V30.5182C2.70001 32.7273 4.50001 34.4455 6.62728 34.4455H8.18183C8.91819 36.4909 11.1273 37.5545 13.2546 36.8182C14.8091 36.2455 15.8727 34.7727 15.8727 33.0545V22.4182C15.8727 20.2091 14.0727 18.4909 11.9455 18.4909C10.3091 18.4909 8.75456 19.5545 8.18183 21.1091H6.62728C6.21819 21.1091 5.72728 21.1909 5.31819 21.3545V19.8C5.15456 10.3091 12.6818 2.53636 22.1727 2.37273C31.6636 2.20909 39.4364 9.73636 39.6 19.2273V21.3545C39.1909 21.1909 38.7 21.1091 38.2909 21.1091H36.7364C36 19.0636 33.7909 18 31.6636 18.7364C30.1091 19.3091 29.0455 20.7818 29.0455 22.5V33.2182C29.0455 35.4273 30.8455 37.1455 32.9727 37.1455C33.3818 37.1455 33.7091 37.0636 34.1182 36.9818C33.6273 38.6182 32.0727 39.7636 30.3546 39.7636H26.1818C25.4455 37.7182 23.1546 36.6545 21.1091 37.3909C19.0636 38.1273 18 40.4182 18.7364 42.4636C19.4727 44.5091 21.7636 45.5727 23.8091 44.8364C24.9546 44.4273 25.8546 43.5273 26.1818 42.4636H30.3546C33.9546 42.4636 36.9818 39.5182 36.9818 35.8364V34.5273H38.2909C40.5 34.5273 42.2182 32.7273 42.2182 30.6V19.8C42.3 8.83636 33.3818 0 22.5 0ZM10.6364 22.4182C10.6364 21.6818 11.2909 21.1091 12.0273 21.1091C12.7636 21.1091 13.2546 21.6818 13.3364 22.4182V33.1364C13.3364 33.8727 12.6818 34.4455 11.9455 34.4455C11.2091 34.4455 10.7182 33.8727 10.6364 33.1364V22.4182ZM6.7091 23.7273H8.01819V31.8273H6.7091C5.97274 31.8273 5.40001 31.2545 5.40001 30.5182V25.0364C5.40001 24.3 5.97274 23.7273 6.7091 23.7273ZM22.5 42.3818C21.7636 42.3818 21.1909 41.8091 21.1909 41.0727C21.1909 40.3364 21.7636 39.7636 22.5 39.7636C23.2364 39.7636 23.8091 40.3364 23.8091 41.0727C23.8091 41.8091 23.2364 42.3818 22.5 42.3818ZM34.3636 33.1364C34.3636 33.8727 33.7091 34.4455 32.9727 34.4455C32.2364 34.4455 31.7455 33.8727 31.6636 33.1364V22.4182C31.6636 21.6818 32.3182 21.1091 33.0546 21.1091C33.7909 21.1091 34.2818 21.6818 34.3636 22.4182V33.1364ZM39.6 30.5182C39.6 31.2545 39.0273 31.8273 38.2909 31.8273H36.9818V23.7273H38.2909C39.0273 23.7273 39.6 24.3 39.6 25.0364V30.5182Z"
+                                    fill="#222222" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_7_139">
+                                    <rect width="45" height="45" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h5>24/7 Support</h5>
+                    <p>Dedicated support</p>
+                </li>
+                <li>
+                    <div class="icon-con">
+                        <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M26.8265 11.0455L29.9356 13.3364C30.0993 13.5 30.1811 13.7455 30.0175 13.9909C29.9356 14.0727 29.772 14.1545 29.6902 14.1545H28.7084C28.4629 14.1545 28.2175 13.9909 28.2175 13.6636C28.2175 12.9273 27.6447 12.3545 26.9084 12.3545C26.172 12.3545 25.5993 12.9273 25.5993 13.6636C25.5993 15.0545 26.4993 16.2818 27.8902 16.6091V16.6909C27.8902 17.4273 28.4629 18 29.1993 18C29.9356 18 30.5084 17.4273 30.5084 16.6909V16.6091C31.8175 16.2 32.7993 14.9727 32.7993 13.5818C32.7993 12.6 32.3084 11.7 31.572 11.1273L28.4629 8.83636C28.2993 8.67273 28.2175 8.42727 28.3811 8.18182C28.4629 8.1 28.6265 8.01818 28.7084 8.01818H29.6902C29.9356 8.01818 30.1811 8.18182 30.1811 8.50909C30.1811 9.24545 30.7538 9.81818 31.4902 9.81818C32.2265 9.81818 32.7993 9.24545 32.7993 8.50909C32.7993 7.11818 31.8993 5.89091 30.5084 5.56364C30.5084 4.82727 29.9356 4.25455 29.1993 4.25455C28.4629 4.25455 27.8902 4.82727 27.8902 5.56364V5.64545C26.2538 6.13636 25.272 7.77273 25.7629 9.40909C25.8447 10.0636 26.2538 10.6364 26.8265 11.0455ZM29.1993 22.2545C35.3356 22.2545 40.3265 17.2636 40.3265 11.1273C40.3265 4.99091 35.3356 0 29.1175 0C22.9811 0 17.9902 4.99091 17.9902 11.1273C18.072 17.2636 22.9811 22.2545 29.1993 22.2545ZM29.1993 2.61818C33.8629 2.61818 37.6265 6.46364 37.6265 11.1273C37.6265 15.7909 33.8629 19.6364 29.1175 19.6364C24.4538 19.6364 20.6084 15.7909 20.6084 11.1273C20.6902 6.46364 24.4538 2.61818 29.1993 2.61818ZM44.0902 25.2818C42.6993 23.4818 40.0811 23.0727 38.1993 24.3818L33.2084 27.7364C32.472 26.4273 31.0811 25.5273 29.5265 25.5273H25.9265C21.9993 21.8455 15.7811 22.0091 12.0993 25.9364C11.5265 26.5909 11.0356 27.2455 10.6265 27.9818L9.972 28.3909L9.80836 27.9C9.56291 27.2455 8.82654 26.8364 8.172 27.0818L0.890182 29.5364C0.235636 29.7818 -0.173455 30.5182 0.072 31.1727L4.49018 44.0182C4.73564 44.6727 5.472 45.0818 6.12654 44.8364L13.4084 42.3818C14.0629 42.1364 14.472 41.4 14.2265 40.7455V40.6636L25.7629 40.3364C28.872 40.3364 31.8993 39.3545 34.5175 37.5545L43.1902 31.3364C45.1538 29.9455 45.5629 27.2455 44.172 25.3636L44.0902 25.2818ZM6.53564 41.9727L3.01745 31.6636L7.76291 30.0273L11.2811 40.4182L6.53564 41.9727ZM41.6356 29.2091L32.9629 35.4273C30.8356 36.9 28.2993 37.7182 25.7629 37.7182L13.4084 38.1273L10.9538 31.0091L12.4265 30.1091C12.672 29.9455 12.8356 29.7818 12.9175 29.5364C14.6356 26.0182 18.972 24.5455 22.4902 26.2636C23.2265 26.6727 23.9629 27.1636 24.5356 27.7364C24.7811 27.9818 25.1084 28.1455 25.5175 28.1455H29.6084C30.4265 28.1455 31.0811 28.8 31.0811 29.6182C31.0811 30.4364 30.4265 31.0909 29.6084 31.0909H22.1629C21.4265 31.0909 20.8538 31.6636 20.8538 32.4C20.8538 33.1364 21.4265 33.7091 22.1629 33.7091H29.6084C31.4902 33.7091 33.2084 32.4 33.6175 30.5182L39.7538 26.4273C40.4902 25.9364 41.5538 26.1 42.0447 26.8364C42.5356 27.6545 42.372 28.7182 41.6356 29.2091Z"
+                                fill="#222222" />
+                        </svg>
+                    </div>
+                    <h5>Free Delivery</h5>
+                    <p>For all order over 80$</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- end footer top icon -->
+
+    <footer>
+        <div class="container">
+            <div class="f-menu-con">
+                <div class="f-menu-grid">
+                    <h5>Informations</h5>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="product.html">Products</a>
+                        </li>
+                        <li>
+                            <a href="collection.html">Shop</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="f-menu-grid">
+                    <h5>Quick Shop</h5>
+                    <ul>
+                        <li>
+                            <a href="collection.html">New Arrivals</a>
+                        </li>
+                        <li>
+                            <a href="collection.html">Fashion</a>
+                        </li>
+                        <li>
+                            <a href="collection.html">Men</a>
+                        </li>
+                        <li>
+                            <a href="collection.html">Women</a>
+                        </li>
+                        <li>
+                            <a href="collection.html">Watches</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="f-menu-grid">
+                    <h5>Customer Services</h5>
+                    <ul>
+                        <li>
+                            <a href="#">Help & FAQs</a>
+                        </li>
+                        <li>
+                            <a href="#">Returns Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Support Center</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="f-menu-grid">
+                    <h5>Contact Us</h5>
+                    <p class="f-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <ul class="info-con">
+                        <li>
+                            <span>Phone : </span>
+                            <a href="tel:(91) 8820545556">(91) 8820545556</a>
+
+                        </li>
+                        <li>
+                            <span>Email : </span>
+                            <a href="mailto:info@demo.com">info@demo.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copy-right">
+                <p>© 20245 Watches. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- cart drawer -->
+    <div id="cartDrawer" class="drawer cart-ignore">
+        <div class="head">
+            <div class="inner-head">Your Cart</div>
+            <button id="closeCartBtn" class="cart-close-btn"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M0 14.545L1.455 16L8 9.455L14.545 16L16 14.545L9.455 8L16 1.455L14.545 0L8 6.545L1.455 0L0 1.455L6.545 8L0 14.545Z"
+                        fill="white" />
+                </svg>
+            </button>
+        </div>
+        <div class="cart-inner">
+            <div class="product-cart" id="cartItems">
+
+            </div>
+            <div class="drawer-bottom">
+                <div class="subtotal">
+                    <b>Subtotal</b>
+                    <b><span id="cartTotal">0.00</span></b>
+                </div>
+                <p class="sub-message">Lorem ipsum dolor sit amet, consectetur</p>
+                <div class="drawer-btn-group">
+                    <button class="primary-btn" id="checkoutBtn">Checkout</button>
+                    <button onclick="goToCart()" class="secondary-btn">view cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end cart drawer -->
+
+    <div id="cartOverlay" class="cart-overlay"></div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+    <!-- our products swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 3000,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+            },
+        });
+    </script>
+
+    <script>
+        var featureswiper = new Swiper(".feature-slider", {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoplay: {
+                delay: 3000,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                },
+            },
+        });
+    </script>
+    <script src="js/cart.js"></script>
+</body>
+
+</html>
