@@ -134,8 +134,8 @@ function renderCartDetails() {
     </div>
 </div>
 <div class="product-quantity-con">
-    <div class="quantity-container">
-            <div class="quantity-t">Quantity : ${item.quantity}</div>
+    <div class="quantity-container quantity-center">
+            <div class="quantity-t">${item.quantity}</div>
             
     </div>
 </div>

@@ -1325,6 +1325,9 @@ justify-content: space-between;
 gap: 20px;
 align-items: center;
 margin-top: 10px;
+&.quantity-center{
+    justify-content: center;
+}
 }
 .remove-btn{
     background: transparent;
