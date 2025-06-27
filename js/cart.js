@@ -135,11 +135,7 @@ function renderCartDetails() {
 </div>
 <div class="product-quantity-con">
     <div class="quantity-container">
-            <div class="number">
-                <span class="minus">-</span>
-                <input type="text" value="${item.quantity}">
-                <span class="plus">+</span>
-            </div>
+            <div class="quantity-t">Quantity : ${item.quantity}</div>
             
     </div>
 </div>
